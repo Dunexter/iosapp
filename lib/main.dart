@@ -31,16 +31,27 @@ class _MyAppState extends State<MyApp> {
         child: Scaffold(
           //below start code of app bar i.e only for ios build
           appBar: AppBar(
-            title: Text('Theemall'),
-            actions: [
-              IconButton(
-                icon: Icon(Icons.arrow_back),
-                onPressed: () async {
-                  controller.goBack();
-                },
-              )
-            ],
-            backgroundColor: Colors.transparent,
+            leading: IconButton(
+              icon: Icon(Icons.arrow_back),
+              onPressed: () async {
+                controller.goBack();
+              },
+            ),
+            title: Text(
+              "Theemall",
+              style: TextStyle(color: Colors.black),
+            ),
+            centerTitle: true,
+            //actions: [
+            //  IconButton(
+            //    icon: Icon(Icons.arrow_back),
+            //    onPressed: () async {
+            //      controller.goBack();
+            //    },
+            //  )
+            //],
+            backgroundColor: Colors.white,
+            iconTheme: IconThemeData(color: Colors.black),
           ),
           // app bar code ends
           body: Container(
