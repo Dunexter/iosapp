@@ -8,7 +8,7 @@ import 'package:flutter_webview_pro/webview_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
+// import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
 //import 'package:webview_flutter_upload/webview_flutter.dart';
 // Chnages have been done by me on location C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\webview_pro_android-2.8.3+2\android\src\main\java\io\flutter\plugins\webviewflutter\WebChromeClientHostApiImpl.java
